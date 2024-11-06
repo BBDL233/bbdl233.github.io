@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #3b5998;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
+
+.packages {
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.packages h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #3b5998;
+}
+
+.package {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.package h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #3b5998;
+}
+
+.package p {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.package button {
+  padding: 10px 20px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.package button:hover {
+  background-color: #2d4373;
+}
+.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3b5998;
+  color: white;
+  text-decoration: none; /* 去除下划线 */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #2d4373;
+}
+
+
+/* 去掉文字下划线 */
+
+.nonedecoration {
+  text-decoration: none;
+}
+
+/* 自定义超链接 */
+
+.a {
+  a:link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  a:visited {
+    color: blue;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+
+  a:active {
+    color: red;
+  }
+}
+
+.aboy {
+  a:link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  a:visited {
+    color: blue;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+
+  a:active {
+    color: red;
+  }
+}
+
+.agirl {
+  a:link {
+    text-decoration: none;
+    color: red;
+  }
+
+  a:visited {
+    color: red;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+
+  a:active {
+    color: blue;
+  }
+}
+
+
+/* 加载动画 */
+
+.fade-in {
+  opacity: 0; /* 初始时元素是透明的 */
+  animation: fadeInAnimation 2s forwards; /* 应用动画，持续时间2秒，完成后保持最后一帧的状态 */
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0; /* 动画开始时，元素是透明的 */
+  }
+  to {
+    opacity: 1; /* 动画结束时，元素完全不透明 */
+  }
+}
+
+/* 自定义字体 */
+
+@font-face {
+  font-family: 'ChildFunSansDemo';
+  src: url('./ChildFunSans-Demo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font {
+  font-family: 'ChildFunSansDemo', sans-serif;
+}
