@@ -179,3 +179,8 @@ header p {
 .font {
   font-family: 'ChildFunSansDemo', sans-serif;
 }
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
